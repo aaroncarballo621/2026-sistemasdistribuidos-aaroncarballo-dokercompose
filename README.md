@@ -25,3 +25,4 @@ http://127.0.0.1:3000
 
 - Se quiser alterar a quantidade de réplicas, basta editar o arquivo docker-compose.yml
 ```
+creditos ao professor Victor Machado Alvez

@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0px 0;
+	color:#dc3545;
+
+}
+h6 {
+	font-size: 0.7em;
+	line-height: 1em;
+	margin: 5px 0;
+	font-weight:100;	
+	color:#000000;
+
+}
+h2 {
+	font-size: 1.3em;
+	line-height: 1em;
+	margin: 5px 0;
+	font-weight:500;	
+	color:#000000;
+
+}
+.grid-container {
+  	display: grid;
+  	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 10px;
+	margin:50px;
+}
+
+.grid-item {
+  	background-color: #E0E0E0;
+  	padding: 20px;
+  	font-size: 30px;
+  	text-align: left;
+	border-radius:10px;
+}
+
+
+p {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+
+}
+.btn-comprar{
+	background-color: #dc3545;
+	color: white;
+	font-size: 26px;
+    	cursor: pointer;
+  	border-radius: 5px;
+	width:350px;
+	border: none
+}
+.btn-comprar:hover {
+  background-color: #c82333;
+}
+
+#logo {
+	max-width: 5%;
+	height: auto;
+	float: left;
+	padding: 15px 0 0 20px; 
+  }
+#lavarropas {
+	display: block;     
+  	margin: 0 auto;     
+  	width: 350px;       
+  	height: auto;
+	border-radius: 10px;
+
+}
+
+	#cabezario {
+		background: #dc3545;
+		color: white;
+		height: 80px;
+}	
+	#cabezario a {
+		color: white;
+}
+
+	#servimac {
+		float: left;
+		padding: 15px 0 0 20px; 
+		text-decoration: none;
+		color:#00000;
+}
+	#servimac:hover {
+		color: #474747;
+}	
+	#servimac  .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+
+}
+	#servimac .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #FFFFFF;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #000000;
+				}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
